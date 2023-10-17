@@ -1,5 +1,3 @@
-![Capture](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/96e3f523-8842-4e91-b434-56491ae78b4b)# UnityPathTracing
-
 # About
 
 This path tracer works by manipulating the camera buffer by replacing the render texture with our own, which we create via a surface shader, which creates a path traced image of our objects in the scene. Currently, this project only supports spheres as scene objects. 
