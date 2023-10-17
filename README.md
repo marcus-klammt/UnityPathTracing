@@ -1,6 +1,6 @@
 # About
 
-This path tracer works by manipulating the camera buffer by replacing the render texture with our own, which we create via a surface shader, which creates a path traced image of our objects in the scene. Currently, this project only supports spheres as scene objects. 
+This path tracer works by manipulating the camera buffer by replacing the render texture with our own, which we create via a surface shader, which creates a path-traced image of our objects in the scene. Currently, this project only supports spheres as scene objects.
 
 # Screenshots
 ![Capture](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/41aa57ec-1386-41e3-8ccf-d0953abdde53)
