@@ -1,9 +1,15 @@
-# UnityPathTracing
+![Capture](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/96e3f523-8842-4e91-b434-56491ae78b4b)# UnityPathTracing
 
 # About
 
 This path tracer works by manipulating the camera buffer by replacing the render texture with our own, which we create via a surface shader, which creates a path traced image of our objects in the scene. Currently, this project only supports spheres as scene objects. 
 
+# Screenshots
+![Capture](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/41aa57ec-1386-41e3-8ccf-d0953abdde53)
+![Capture1](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/4a84e57f-ade7-4e32-a67c-c5af5f2057e5)
+![Capture4](https://github.com/marcus-klammt/UnityPathTracing/assets/55520137/b7606fc1-a618-4b48-abe4-b48b58888298)
+
+  
 # Features
 
 * True path tracing with user input for per pixel samples, bounces, and much more.
@@ -21,7 +27,8 @@ This path tracer works by manipulating the camera buffer by replacing the render
 * Performance is generally not amazing
 * Shadow coloring is based on pixel color, not light intensity
 
-# Requisites 
+
+# Pre-requisites 
 * Requires Unity 2020.3.37f1
 
 # Credits
